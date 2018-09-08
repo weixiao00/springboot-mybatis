@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+  mvc:
+    view:
+      prefix:
+      suffix:
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
